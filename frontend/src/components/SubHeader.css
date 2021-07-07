@@ -1,0 +1,24 @@
+@font-face {
+   font-family: 'Krona One' ;
+   src: url('../Fonts/KronaOne-Regular.ttf') format('truetype');
+}
+
+.sub-header {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-header h2 {
+  color: #3f3485;
+  font-size: 42px;
+  font-family: "Krona One", sans-serif;
+}
+
+.sub-header h2 span {
+  color: #e5447a;
+  font-size: 42px;
+  font-family: "Krona One", sans-serif;
+}

@@ -1,0 +1,137 @@
+
+
+.heading {
+  margin-left: 30px;
+  margin-bottom: 16px;
+}
+
+.heading-2 {
+  margin-left: 0px;
+  margin-bottom: 16px;
+}
+
+section .heading h4,
+section .heading-2 h4 {
+  color: #8d8c8a;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+section .heading h3,
+section .heading-2 h3,
+.content-box h3,
+.w-100 h3,
+.middle-section h3 {
+  font-family: "Roboto-Thin", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+
+.service-box h4 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.service-box h4.contact-title {
+  position: relative;
+}
+
+.service-box h4.contact-title::after {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #e5447a;
+}
+
+.service-box ul li {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.service-box ul li i {
+  margin-right: 6px;
+}
+
+.social-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-box h4 {
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+}
+
+.social-box h4::after {
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 3px;
+  background-color: #e5447a;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.social-box ul li {
+  display: inline-block;
+  margin: 20px;
+  transition: 0.5s;
+}
+
+section .row .social-box ul li a {
+  font-size: 30px;
+  transition: 0.5s;
+}
+
+section .row .social-box ul li:hover {
+  transform: translateY(-6px);
+}
+
+.soc-media-icon {
+  color: #242526;
+  transition: 0.5s;
+}
+
+section .row .social-box ul li:hover .soc-media-icon {
+  color: #e5447a;
+}
+
+@media (max-width: 991.98px){
+  .heading {
+    margin-left: 0px;
+    margin-bottom: 16px;
+  }
+
+  section .heading h3,
+  section .heading-2 h3,
+  .content-box h3,
+  .w-100 h3,
+  .middle-section h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .social-box h4 {
+    text-align: center;
+  }
+
+  .social-box ul li {
+    display: block;
+    margin: 20px;
+    transition: 0.5s;
+  }
+}

@@ -1,0 +1,25 @@
+
+
+.phone-part {
+  display: none;
+}
+
+.phone-button-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-button-content p {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+
+@media (max-width: 575.98px) {
+
+  .phone-part {
+    display: block;
+  }
+}

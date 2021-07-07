@@ -1,0 +1,49 @@
+
+
+.services-box {
+  width: 450px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  padding: 20px;
+  /* if it goes wrong - remove this and forget about trangles */
+  position: relative;
+  transition: 0.5s;
+}
+
+.services-box h4 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.services-box-1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 20px solid transparent;
+  border-top: 20px solid #3f3485;
+  border-right: 20px solid #3f3485;
+}
+
+.services-box .service-box-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-box .service-box-img .service-icon-background-1 {
+  background-color: #3f3485;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+@media (max-width: 767.98px){
+  .services-box {
+    width: 300px;
+  }
+}

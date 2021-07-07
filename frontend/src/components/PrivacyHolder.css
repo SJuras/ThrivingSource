@@ -1,0 +1,41 @@
+
+
+.middle-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-2 {
+  margin-left: 0px;
+  margin-bottom: 16px;
+}
+
+section .heading-2 h4 {
+  color: #8d8c8a;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+section .heading-2 h3 {
+  font-family: "Roboto-Thin", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+
+
+@media (max-width: 991.98px){
+  .middle-box p {
+    text-align: center;
+  }
+
+  section .heading-2 h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+}
