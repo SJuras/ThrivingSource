@@ -61,7 +61,7 @@ function Footer() {
           <div className="soc-media">
             <h5>Follow us:</h5>
             <ul>
-              <li><a href="#"><FaFacebookF className="soc-media-icon" /></a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=100070238389211"><FaFacebookF className="soc-media-icon" /></a></li>
               <li><a href="https://www.instagram.com/thrivingsource/"><FaInstagram className="soc-media-icon" /></a></li>
               <li><a href="https://twitter.com/ThrivingSource?ref_src=twsrc%5Etfw"><FaTwitter className="soc-media-icon" /></a></li>
               <li><a href="#"><FaLinkedinIn className="soc-media-icon" /></a></li>
