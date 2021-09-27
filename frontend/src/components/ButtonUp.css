@@ -1,0 +1,31 @@
+
+
+.btnScrollTop {
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #e5447a;
+  border: 2px solid #e5447a;
+  transition: 0.5s;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.btnScrollTop .btn-arrow {
+  color: #fff;
+  font-size: 18px;
+}
+
+.btnScrollTop.visible {
+  opacity: 1;
+}
+
+.btnScrollTop:active {
+  background: #cc2333;
+  border: 1px solid #cc2333;
+  color: #fff;
+}

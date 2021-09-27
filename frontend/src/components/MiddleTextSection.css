@@ -1,0 +1,29 @@
+
+
+.middle-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-section h3 {
+  font-family: "Roboto-Thin", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.middle-section p {
+  text-align: center;
+}
+
+@media (max-width: 991.98px){
+  .middle-section h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+}

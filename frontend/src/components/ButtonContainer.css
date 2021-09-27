@@ -1,0 +1,15 @@
+
+
+
+@media (max-width: 991.98px){
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-container p {
+    text-align: center;
+  }
+}

@@ -1,0 +1,35 @@
+
+
+.content-box {
+  flex-basis: 50%;
+  padding: 20px;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+.content-box-img {
+  max-width: 450px;
+}
+
+.content-box h3 {
+  font-family: "Roboto-Thin", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+
+@media (max-width: 991.98px) {
+  .content-box {
+    width: 100%;
+  }
+
+  .content-box h3 {
+    text-align: center;
+  }
+
+  .content-box-img {
+    width: 450px;
+  }
+}

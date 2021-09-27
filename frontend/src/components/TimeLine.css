@@ -1,0 +1,176 @@
+
+
+.wrapper {
+  max-width: 100%;
+  margin: 50px auto;
+  padding: 0 20px;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.wrapper .center-line {
+  position: absolute;
+  height: 100%;
+  width: 4px;
+  background: #8d8c8a;
+  left: 50%;
+  top: 20px;
+  transform: translateX(-50%);
+}
+
+.wrapper .red {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.wrapper .red-1 {
+  justify-content: flex-start;
+
+}
+
+.wrapper .red-2 {
+  justify-content: flex-end;
+}
+
+.wrapper .red .part {
+  border-radius: 10px;
+  width: calc(50% - 40px);
+  padding: 20px;
+  color: #fff;
+  min-height: 150px;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+
+  background-color: #fff;
+}
+
+.wrapper .red .part::before {
+  /* position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  top: 28px;
+  z-index: -1;
+  transform: rotate(45deg); */
+
+  position: absolute;
+  content: '';
+  height: 45px;
+  width: 4px;
+  top: 10px;
+  transform: rotate(90deg);
+  z-index: -2;
+}
+
+.red-1 .part::before {
+  right: -7px;
+  background-color: #8d8c8a;
+}
+
+.red-2 .part::before {
+  left: -7px;
+  background-color: #8d8c8a;
+}
+
+.red .part .part-num {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 20px;
+  border-radius: 50%;
+  top: 13px;
+  color: #fff;
+
+  background: #8d8c8a;
+}
+
+.red .part .part-num i {
+  color: #fff;
+}
+
+.wrapper .red .part .details {
+  margin-bottom: 20px;
+}
+
+.wrapper .red .part .details .title {
+  font-size: 18px;
+  margin-bottom: 18px;
+  color: #242526;
+}
+
+.wrapper .red .part h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #242526;
+}
+
+.wrapper .red .part p {
+  margin-bottom: 20px;
+  color: #242526;
+}
+
+.center-line .scroll-icon {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  border-radius: 50%;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+
+  background: #8d8c8a;
+}
+
+.center-line .scroll-icon i {
+  color: #fff;
+}
+
+.red-1 .part .part-num {
+  top: 13px;
+  right: -60px;
+}
+
+.red-2 .part .part-num {
+  top: 13px;
+  left: -60px;
+}
+
+.wrapper .red .part p {
+  font-size: 20px;
+}
+
+
+@media (max-width: 767.98px){
+  .wrapper {
+    padding: 0px;
+  }
+
+  .wrapper .center-line {
+    left: 20px;
+  }
+
+  .wrapper .red {
+    margin: 30px 0 3px 60px;
+  }
+
+  .wrapper .red .part {
+    width: 100%;
+  }
+
+  .red-1 .part::before {
+    left: -7px;
+  }
+
+  .red-1 .part .part-num {
+    left: -60px;
+  }
+
+}

@@ -1,0 +1,68 @@
+:root {
+  --primary: #e5447a;
+  --blue: #3f3485;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  padding: 12px 18px;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btn i {
+  color: #fff;
+  transition: 0.5s;
+}
+
+.btn:hover,
+.btn-focus {
+  background-color: #fff;
+  color: var(--primary);
+  outline: none;
+}
+
+.btn:hover i,
+.btn:focus i {
+  color: var(--primary);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+.btn-blue {
+  border-radius: 10px;
+  border: 2px solid var(--blue);
+  background-color: var(--blue);
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+  background-color: #fff;
+  color: var(--blue);
+  outline: none;
+}
+
+.btn-pink {
+  border-radius: 10px;
+  border: 2px solid var(--primary);
+  background-color: var(--primary);
+}
+
+.btn-pink:hover,
+.btn-pink:focus {
+  background-color: #fff;
+  color: var(--primary);
+  outline: none;
+}

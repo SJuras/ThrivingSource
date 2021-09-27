@@ -1,0 +1,50 @@
+
+
+
+.sitemap-box {
+  flex-basis: 33%;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.sitemap-box h4 {
+  font-size: 24px;
+  margin-bottom: 24px;
+  opacity: 0.8;
+  position: relative;
+}
+
+.sitemap-box h4::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #e5447a;
+  width: 100px;
+  height: 3px;
+}
+
+.sitemap-box ul li {
+  margin-bottom: 8px;
+}
+
+.sitemap-box ul li a {
+  font-size: 18px;
+  transition: 0.5s;
+  color: #242526;
+}
+
+.sitemap-box ul li:hover a {
+  color: #e5447a;
+}
+
+@media (max-width: 991.98px){
+  .sitemap-box {
+    width: 100%;
+  }
+}

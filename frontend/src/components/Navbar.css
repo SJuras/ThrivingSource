@@ -1,0 +1,151 @@
+@font-face {
+   font-family: 'Krona One' ;
+   src: url('../Fonts/KronaOne-Regular.ttf') format('truetype');
+}
+
+
+header {
+  position: fixed;
+  width: 100%;
+  padding: 10px 20px;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.menu-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-btn-container {
+  font-size: 32px;
+  border-radius: 50%;
+  padding: 10px;
+  line-height: 10px;
+}
+
+.menu-bars {
+  color: #242526;
+  line-height: 10px;
+}
+
+.logo-container {
+  width: 300px;
+}
+
+.nav-menu {
+  background-color: #060b26;
+  width: 500px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 850ms;
+  z-index: 22;
+}
+
+.nav-menu.active {
+  right: 0;
+  transition: 350ms;
+  z-index: 22;
+}
+
+/* .nav-menu .nav-menu-items {
+  margin-top: 60px;
+} */
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  height: 60px;
+}
+
+.nav-text a {
+  color: #fff;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text .navbar-links span:hover {
+  color: #e5447a;
+  transition: 0.5s;
+}
+
+.nav-menu-items {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-toggle {
+  background-color: #060b26;
+  height: 80px;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px;
+}
+
+.nav-menu-items span {
+  margin-left: 16px;
+  color: #fff;
+  font-family: 'Krona One', sans-serif;
+}
+
+@media (max-width: 991.98px) {
+  .nav-menu {
+    width: 100%;
+  }
+
+  .nav-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    height: 60px;
+  }
+
+  .logo-container {
+    width: 200px;
+  }
+}
+
+/* header .logo-div {
+  display: flex;
+  align-items: center;
+}
+
+header .logo-div .logo-img {
+  width: 30px;
+  margin-right: 6px;
+}
+
+header .logo-div .logo-text,
+header .logo-div .logo-text span {
+  font-family: 'Krona One', sans-serif;
+  color: #3f3485;
+  font-size: 20px;
+}
+
+header .logo-div .logo-text span {
+  color: #e5447a;
+} */
